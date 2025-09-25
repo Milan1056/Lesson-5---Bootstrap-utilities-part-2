@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            Pagination
+        </title>
+        <link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+    </head>
+    <body>
+        <h2>
+            Pagination
+        </h2>
+        <h3>How does it work?</h3>
+        <h4>If you first make an unordered link tag, class it as <code>pagination</code> and inside
+            put li tags with the class <code>page-item</code> for how many
+            page options you want including the previous and next text so if you had 
+            3 pages you would need 5 li tags. Now inside the li tags you need to put the a tag
+            and class it as <code>page-link</code>  then make a href and put the link you want the page
+            to go or just make it as # to see the buttons only and outside the a tag put the text previous
+            then 1 2 ect. till the pages you want then put next. Note you have to duplicate the code every
+            time for different text.
+        </h4>
+        <h3>EXAMPLE</h3>
+        <div class="container">
+            <h2>Pagination</h2>
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li><li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li><li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
